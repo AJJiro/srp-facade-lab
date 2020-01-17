@@ -19,7 +19,8 @@ public class Item {
     private boolean unique;
 
     // Rare items are shiny
-    private final boolean rare;
+    private boolean rare;
+
 
     public Item(int id, String name, int heal, int armour, int weight, boolean unique, boolean rare)
     {
@@ -76,11 +77,12 @@ public class Item {
         return unique;
     }
 
-    public void setUnique(boolean unique) {
-        this.unique = unique;
+    public boolean isRare()
+    {
+        return rare;
     }
 
-    public boolean isRare() {
-        return rare;
+    public void setUnique(boolean unique) {
+        this.unique = unique;
     }
 }
