@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class RpgPlayer {
     public static final int MAX_CARRYING_CAPACITY = 1000;
-
+    // Game engine
     public final IGameEngine gameEngine;
 
     private int health;

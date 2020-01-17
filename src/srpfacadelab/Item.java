@@ -1,5 +1,6 @@
 package srpfacadelab;
 
+
 public class Item {
 
     private int id;
@@ -21,7 +22,7 @@ public class Item {
     // Rare items are shiny
     private boolean rare;
 
-
+    //Fields, constructors
     public Item(int id, String name, int heal, int armour, int weight, boolean unique, boolean rare)
     {
         this.rare = rare;

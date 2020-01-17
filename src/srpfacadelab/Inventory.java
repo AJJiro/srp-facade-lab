@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 //Put the constructor in the parameter
+//Everything in Inventory
 
 public class Inventory {
    
